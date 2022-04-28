@@ -2,7 +2,7 @@
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove, Update, InlineKeyboardMarkup
 from bson.json_util import dumps
 from multicolorcaptcha import CaptchaGenerator
-from jokes import getJoke
+
 from telegram.ext import (
     Updater,
     CommandHandler,
